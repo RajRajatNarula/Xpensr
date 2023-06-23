@@ -1,0 +1,97 @@
+.topfold
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 6px 12px;
+    padding: 12px 0px;
+    
+}
+
+.home-topfold
+{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.searchbar
+{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.searchbar input
+{
+    width: 80%;
+    outline: none;
+    border: none;
+    padding: 8px 0px;
+    margin-left: 6px;
+    background-color: white;
+}
+
+.searchbar i
+{
+   display: flex;
+   margin-left: 6px;
+   align-items: center;
+}
+
+
+.add-button
+{
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    font-size: 20px;
+    padding: 3px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.add-button i
+{
+    display: flex;
+    align-items: center;
+    margin-right: 4px;
+}
+
+.add-topfold
+{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.add-topfold-button-back
+{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.add-topfold-button-back i
+{
+    display: flex;
+    align-items: center;
+    margin-right: 4px;
+}
+
+.add-topfold-button-cancel
+{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    cursor: pointer;
+}
+.add-topfold-button-cancel i
+{
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}

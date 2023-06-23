@@ -1,0 +1,67 @@
+.modal-inner
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal-image
+{
+    height: 300px;
+}
+
+.take-home-button
+{
+    border: 1px solid black;
+    display: flex;
+    padding: 4px 8px;
+    border-radius: 6px;
+    justify-content: center;
+    align-content: center;
+}
+
+.take-home-button i
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-right:6px ;
+    
+}
+
+/* .take-add-expense-button
+{
+    border: 1px solid black;
+    display: flex;
+    padding: 4px 8px;
+    border-radius: 6px;
+    justify-content: center;
+    align-content: center;
+    margin-top: 4px;
+}
+
+.take-add-expense-button i
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-right:6px ;
+} */
+
+@media screen and (max-width:1024px)
+{
+        .modal-image
+        {
+            height: 250px;
+        }
+        
+}
+@media screen and (max-width:512px)
+{
+        .modal-image
+        {
+            height: 150px;
+        }
+        
+}
+

@@ -1,0 +1,148 @@
+.add-form
+{
+   border-radius: 20px;
+background: #71ccca;
+box-shadow:  20px 20px 60px #60adac,
+             -20px -20px 60px #82ebe8;
+margin:6px 12px;
+padding: 24px;
+display: flex;
+flex-direction: column;
+flex: 1;
+min-height: 60vh;
+}
+
+.form-item
+{
+    margin: 12px 0px;
+    background-color: white;
+    padding: 6px;
+    width: 70%;
+    border-radius: 6px;
+}
+
+.form-item label
+{
+    
+    background-color: lightgrey;
+    padding: 3px 12px;
+    border-radius: 5px;
+    padding-bottom: 4px;
+}
+
+.form-item input
+{
+    border: none;
+    outline: none;
+    font-size: 16px;
+    margin-left: 5px;
+    width: 70%;
+}
+
+.category-container-parent
+{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.category
+{
+    position: relative;
+    width: 40%;
+}
+
+.category-dropdown
+{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 0px;
+    padding: 6px;
+    border-radius: 6px;
+}
+
+.category-dropdown i{
+    align-items: center;
+    display: flex;
+    margin-right: 4px;
+}
+
+.category-container
+{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    background-color: white;
+}
+
+.category-item
+{
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 0px;
+    cursor: pointer;
+}
+
+.category-container img
+{
+    height: 32px;
+    margin-right: 20px;
+}
+
+.category-container label
+{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.form-add-button
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form-add-button div
+
+{
+    display: flex;
+    padding: 4px 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-add-button div i
+{
+    display: flex;
+    align-items: center;
+    margin-left: 6px;
+}
+
+
+@media screen and (max-width:1024px) 
+{
+    .form-item
+    {
+        width:100%
+    }
+
+    .form-item input
+    {
+        width: 70%;
+    }    
+
+    .amount-input
+    {
+        width: 50% !important
+    }
+
+    .category
+    {
+        width: 80%;
+    }
+
+}
